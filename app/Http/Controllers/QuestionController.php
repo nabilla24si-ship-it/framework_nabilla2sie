@@ -45,6 +45,7 @@ class QuestionController
        $data['pertanyaan'] =$request->pertanyaan;
 
        return view('home-question-respon', $data);
+      // return redirect()->route('home')->with('info', 'Selamat, data anda tersubnit');
     }
 
     /**

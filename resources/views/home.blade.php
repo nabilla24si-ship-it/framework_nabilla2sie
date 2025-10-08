@@ -8,6 +8,8 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ asset('assets/css/custom-style.css') }}">
+	
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -56,6 +58,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
+            <img src="{{ asset('images/logo.png') }}" alt="Logo">
             <a class="navbar-brand" href="#">My Laravel App</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,6 +107,12 @@
                         </ul>
                     </div>
                 @endif
+                        @if (session('info'))
+            <div class="alert alert-info">
+                {!! session('info') !!}
+            </div>
+        @endif
+
 
                         <form action="{{ route('question.store') }}" method="POST">
                             @csrf
