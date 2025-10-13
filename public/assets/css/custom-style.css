@@ -1,0 +1,19 @@
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('assets/fonts/OpenSans.ttf');
+}
+
+.font-OpenSans{
+    font-family: 'OpenSans';
+}
+
+.hero-logo {
+    width: 60px;         /* ukuran logo, bisa ubah ke 40–80px sesuai selera */
+    height: auto;
+    border-radius: 8px;  /* opsional, biar sudutnya lembut */
+}
+
+
+
