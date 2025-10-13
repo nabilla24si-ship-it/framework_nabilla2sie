@@ -1,8 +1,18 @@
+
 @font-face {
-    font-family: 'MyCustomFont';
-    src: url('assets/fonts/MyCustomFont.ttf'));
+    font-family: 'OpenSans';
+    src: url('assets/fonts/OpenSans.ttf');
 }
 
-.font-custom{
-    font-family: 'MyCustomFont';
+.font-OpenSans{
+    font-family: 'OpenSans';
 }
+
+.hero-logo {
+    width: 60px;         /* ukuran logo, bisa ubah ke 40–80px sesuai selera */
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
