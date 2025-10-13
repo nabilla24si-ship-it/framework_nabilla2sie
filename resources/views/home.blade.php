@@ -107,6 +107,7 @@
 
                 <!-- Form Pertanyaan -->
                 <div class="card">
+<<<<<<< HEAD
                             <div class="card-body">
                 <h5 class="card-title">Form Pertanyaan</h5>
                 @if ($errors->any())
@@ -124,6 +125,8 @@
             </div>
         @endif
 
+=======
+>>>>>>> 191447ef7524e2ac2da021db5534de1de1c57e7f
                     <div class="card-body">
                         <h5 class="card-title">Form Pertanyaan</h5>
 
